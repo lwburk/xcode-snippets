@@ -7,3 +7,4 @@ Copy files to `~/Library/Developer/Xcode/UserData/CodeSnippets`
 * `mark` Pragma Mark
 * `prop` Property (nonatomic, strong)
 * `logm` Log a method invocation
+* `stri` Convert integer to string
