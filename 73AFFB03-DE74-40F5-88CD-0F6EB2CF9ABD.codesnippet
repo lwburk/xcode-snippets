@@ -15,7 +15,7 @@
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Used for adding a mark pragma</string>
+	<string>Add a mark pragma</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>Pragma Mark</string>
 	<key>IDECodeSnippetUserSnippet</key>

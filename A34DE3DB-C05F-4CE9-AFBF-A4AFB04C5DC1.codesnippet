@@ -15,9 +15,9 @@
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Used for converting an integer to a string</string>
+	<string>Convert an integer to a string</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>String from integer</string>
+	<string>String from Integer</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
