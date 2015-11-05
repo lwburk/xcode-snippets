@@ -1,5 +1,9 @@
-xcode-snippets
-==============
+# xcode-snippets
+
+My Xcode Snippets
+
+## Installation
+
 Copy files to `~/Library/Developer/Xcode/UserData/CodeSnippets`
 
 ## Cheat Sheet
