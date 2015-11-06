@@ -14,15 +14,16 @@ Copy files to \`~/Library/Developer/Xcode/UserData/CodeSnippets\`
 
 ## Cheat Sheet
 
-Command  | Description
-------------- | -------------
+File | Command  | Description
+------------- | ------------- | -------------
 static
 
 suffix="codesnippet"
 for snippet in `ls *.$suffix`;
 do
     echo $(xml sel --net -t \
-                         -o \` \
+                         -o "$snippet" \
+                         -o \|\` \
                          -v "/plist/dict[1]/key[.='IDECodeSnippetCompletionPrefix']/following-sibling::string[1]" \
                          -o \`\| \
                          -v "/plist/dict[1]/key[.='IDECodeSnippetSummary']/following-sibling::string[1]" \

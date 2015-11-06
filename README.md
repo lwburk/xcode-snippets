@@ -8,13 +8,13 @@ Copy files to `~/Library/Developer/Xcode/UserData/CodeSnippets`
 
 ## Cheat Sheet
 
-Command  | Description
-------------- | -------------
-`logm`|Log a method call
-`mark`|Add a mark pragma
-`pret`|Log a function's name
-`prop`|Create a nonatomic property
-`stri`|Convert an integer to a string
+File | Command  | Description
+------------- | ------------- | -------------
+MethodLogger.codesnippet|`logm`|Log a method call
+PragmaMark.codesnippet|`mark`|Add a mark pragma
+PrettyFunction.codesnippet|`pret`|Log a function's name
+Property.codesnippet|`prop`|Create a nonatomic property
+StringfromInteger.codesnippet|`stri`|Convert an integer to a string
 
 ## About this file
 
