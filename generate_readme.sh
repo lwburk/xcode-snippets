@@ -21,13 +21,13 @@ static
 suffix="codesnippet"
 for snippet in `ls *.$suffix`;
 do
-    echo $(xml sel --net -t \
-                         -o "$snippet" \
-                         -o \|\` \
-                         -v "/plist/dict[1]/key[.='IDECodeSnippetCompletionPrefix']/following-sibling::string[1]" \
-                         -o \`\| \
-                         -v "/plist/dict[1]/key[.='IDECodeSnippetSummary']/following-sibling::string[1]" \
-                                $snippet)
+    xml sel --net -t \
+                  -o "$snippet" \
+                  -o \|\` \
+                  -v "/plist/dict[1]/key[.='IDECodeSnippetCompletionPrefix']/following-sibling::string[1]" \
+                  -o \`\| \
+                  -v "/plist/dict[1]/key[.='IDECodeSnippetSummary']/following-sibling::string[1]" \
+                  $snippet
 done;
 
 cat <<about
