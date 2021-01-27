@@ -4,7 +4,11 @@ My Xcode Snippets
 
 ## Installation
 
-Copy files to `~/Library/Developer/Xcode/UserData/CodeSnippets`
+Copy files to `~/Library/Developer/Xcode/UserData/CodeSnippets`.
+
+If you're running this on a new install (i.e. if you don't already have a dir called `CodeSnippets`), then you can simply run the following command to clone the repo to the proper location:
+
+    git clone https://github.com/wayneburkett/xcode-snippets.git ~/Library/Developer/Xcode/UserData/CodeSnippets
 
 ## Cheat Sheet
 
